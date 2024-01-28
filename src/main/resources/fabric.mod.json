@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "androidsweapons",
+	"version": "${version}",
+	"name": "androidsweapons",
+	"description": "Mod that adds various types of special weapons.",
+	"authors": [
+		"Androidc4"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/androidsweapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.androidc4.androidsweapons.Androidsweapons"
+		],
+		"client": [
+			"net.androidc4.androidsweapons.AndroidsweaponsClient"
+		],
+		"fabric-datagen": [
+			"net.androidc4.androidsweapons.AndroidsweaponsDataGenerator"
+		]
+	},
+	"mixins": [
+		"androidsweapons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
