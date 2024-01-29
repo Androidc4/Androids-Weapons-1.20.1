@@ -1,5 +1,8 @@
 package net.androidc4.androidsweapons;
 
+import net.androidc4.androidsweapons.block.ModBlocks;
+import net.androidc4.androidsweapons.item.ModItemGroups;
+import net.androidc4.androidsweapons.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +14,9 @@ public class Androidsweapons implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 	}
 }

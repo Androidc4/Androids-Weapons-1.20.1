@@ -1,0 +1,15 @@
+{
+  "item.androidsweapons.frozen_shard": "Ancient Frozen Shard",
+  "item.androidsweapons.frozen_shard.desc": "A shard of an ancient ice crystal. It's cold to the touch.",
+
+  "item.androidsweapons.void_crystal": "Void Crystal",
+  "item.androidsweapons.void_crystal.desc": "A crystal that seems to absorb light. It's cold to the touch.",
+
+  "item.androidsweapons.void_ingot": "Void Ingot",
+
+  "item.androidsweapons.void_reaper": "Void Reaper",
+
+  "block.androidsweapons.frozen_block": "Frozen Block",
+
+  "itemgroup.androids_weapons": "Android's Weapons"
+}
