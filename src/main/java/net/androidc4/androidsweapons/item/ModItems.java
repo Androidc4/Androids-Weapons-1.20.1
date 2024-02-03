@@ -1,6 +1,7 @@
 package net.androidc4.androidsweapons.item;
 
 import net.androidc4.androidsweapons.Androidsweapons;
+import net.androidc4.androidsweapons.item.custom.VoidReaperItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -16,7 +17,7 @@ public class ModItems {
     public static final Item VOIDCRYSTAL = registerItem("void_crystal", new Item(new FabricItemSettings()));
     public static final Item VOIDINGOT = registerItem("void_ingot", new Item(new FabricItemSettings()));
 
-    public static final Item VOIDREAPER = registerItem("void_reaper", new SwordItem(ModToolMaterial.VOID, 10, 4f, new FabricItemSettings()));
+    public static final Item VOIDREAPER = registerItem("void_reaper", new VoidReaperItem(ModToolMaterial.VOID, 10, 4f, new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 
         entries.add(FROZENSHARD);
